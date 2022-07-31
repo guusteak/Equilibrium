@@ -43,6 +43,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 10%;
+    background-color: cyan;
 }
 
 .description{
@@ -53,6 +54,10 @@ body{
 .description h2{
     color: white;
     font-size: 3rem;
+}
+
+.description h2:hover{
+    color: cyan;
 }
 
 .description p{
@@ -127,4 +132,15 @@ footer{
 
 .creat-disc span{
     color: white;
+}
+
+.creat-disc span:hover{
+    color: cyan;
+}
+
+.photo:hover{
+    cursor: pointer;
+    opacity: 1;
+    background: url("images/icon-view.svg") center no-repeat,
+      hsla(178, 100%, 50%, 0.5);
 }
