@@ -33,18 +33,7 @@ body{
     background-color: hsl(216, 50%, 16%);
 }
 
-.photo{
-    margin: auto;
-    margin-top: 50px;
-    width: 700px;
-    height: 700px;
-    background: url("images/image-equilibrium.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border-radius: 10%;
-    background-color: cyan;
-}
+
 
 .description{
     margin-left: 60px;
@@ -138,9 +127,28 @@ footer{
     color: cyan;
 }
 
+
+.photo{
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 700px;
+    border-radius: 10%;
+    display: flex;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
 .photo:hover{
     cursor: pointer;
     opacity: 1;
     background: url("images/icon-view.svg") center no-repeat,
       hsla(178, 100%, 50%, 0.5);
 }
+
+.photo img:hover{
+    opacity: 0.5;
+}
+
+
