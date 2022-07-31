@@ -1,0 +1,130 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+*,::after,::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color:hsl(217, 54%, 11%);
+}
+
+.outer{
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    margin-top: 100px;
+}
+
+.containter{
+    display: inline-block;
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10%;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.photo{
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    height: 700px;
+    background: url("images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+}
+
+.description{
+    margin-left: 60px;
+    margin-right: 120px;
+}
+
+.description h2{
+    color: white;
+    font-size: 3rem;
+}
+
+.description p{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.8rem;
+    font-weight: 400;
+    word-spacing: normal;
+    line-height: 50px;
+}
+
+.prtm{
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    align-items: baseline;
+}
+
+.time{
+    margin-left: auto;
+}
+
+.eth img{
+    width: 2rem;
+    position: relative;
+    top: 10px;
+    right: 5px;
+}
+
+.eth{
+    justify-content: baseline;
+    color: cyan;
+    align-items: baseline;
+}
+
+
+.time img{
+    width: 2rem;
+}
+
+.time{
+    color: hsl(215, 51%, 70%);
+}
+
+footer{
+    margin: auto;
+    margin-top: 40px;
+    width: 85%;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    display: flex;
+}
+
+.creator{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: url("images/image-avatar.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creat-disc{
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+    margin: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.creat-disc span{
+    color: white;
+}
